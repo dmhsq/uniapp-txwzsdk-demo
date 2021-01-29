@@ -1,0 +1,246 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "HOME"
+			}
+		}, {
+			"path": "pages/WebServiceApi/WebServiceApi",
+			"style": {
+				"navigationBarTitleText": "SDK API",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/URIAPI/URIAPI",
+			"style": {
+				"navigationBarTitleText": "JavaScript API",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/webserviceapis/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/selectwz/selectwz",
+			"style": {
+				"navigationBarTitleText": "选择城市",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/webserviceapis/keys/keys",
+			"style": {
+				"navigationBarTitleText": "关键词搜索",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/webviewty/webviewty",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/webserviceapis/choices/choices",
+			"style": {
+				"navigationBarTitleText": "城市选择",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/webserviceapis/jcwebapi/jcwebapi",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/webserviceapis/reverse/reverse",
+			"style": {
+				"navigationBarTitleText": "逆地址解析",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/demo/demo",
+			"style": {
+				"navigationBarTitleText": "DEMO",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/demos/demone/demone",
+			"style": {
+				"navigationBarTitleText": "多人位置共享",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/demones/guide/guide",
+			"style": {
+				"navigationBarTitleText": "主要人物",
+				"enablePullDownRefresh": false
+			}
+		}
+	    ,{
+            "path" : "pages/demones/tourist/tourist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "次要人物",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/webserviceapis/plan/plan",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "路线规划",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/demos/demotwo/demotwo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "轨迹",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/demotwos/static/static",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "静态轨迹",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/demotwos/dynamic/dynamic",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "实时",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/webserviceapis/analysis/analysis",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "解析位置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/webserviceapis/distance/distance",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "距离",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/webserviceapis/citys/citys",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "获取城市列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/webserviceapis/demoall/demoall",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "DEMO 地图",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/webserviceapis/point/point",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "选点",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/webserviceapis/changecity/changecity",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "切换城市",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/webserviceapis/changesize/changesize",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "改变尺寸",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/demones/readme/readme",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "创新案例说明",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/homeN.png",
+				"selectedIconPath": "static/homeY.png",
+				"text": "HOME"
+			},
+			{
+				"pagePath": "pages/WebServiceApi/WebServiceApi",
+				"iconPath": "static/webApiN.png",
+				"selectedIconPath": "static/webApiY.png",
+				"text": "SDK API"
+			},
+			{
+				"pagePath": "pages/URIAPI/URIAPI",
+				"iconPath": "static/uriApiN.png",
+				"selectedIconPath": "static/uriApiY.png",
+				"text": "JavaScript"
+			},
+			{
+				"pagePath": "pages/demo/demo",
+				"iconPath": "static/demoN.png",
+				"selectedIconPath": "static/demoY.png",
+				"text": "DEMO"
+			}
+		]
+	}
+}
