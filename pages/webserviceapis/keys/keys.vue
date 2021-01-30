@@ -39,11 +39,15 @@
 			},
 			search(){
 				let vm = this;
-				uni.request({
-					url:`https://apis.map.qq.com/ws/place/v1/suggestion/?region=${vm.city}&keyword=${vm.keys}&key=腾讯位置服务key腾讯位置服务官网获取`,
+				var demo = new QQMapWX({
+					key: '腾讯位置服务key腾讯位置服务官网获取'
+				})
+				demo.getSuggestion({
+					keyword:vm.keys,
+					region:vm.city,
 					success: res=>{
-						console.log(res.data.data)
-						vm.tables = res.data.data
+						console.log(res)
+						vm.tables = res.data
 					}
 				})
 			},
